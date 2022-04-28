@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "helvetica";
+    src: url("../font/_H_HelveticaNeueInterface_3.ttf");
+}
+
+/* Dashboard Page */
+
+.dashboard-page{
+    background-color: #000;
+    height: 60vh;
+}
+
+.dashboard-title{
+    font-family: "helvetica", sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.dashboard-img-page{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+}
+
+.dashboard-image{
+    max-width: 100%;
+    max-height: 60vh;
+}
+
+.dashboard-des{
+    text-align: center;
+    margin: 60px 0;
+    font-family: "helvetica", sans-serif;
+    color: #fff;
+}
+
+.dashboard-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dashboard-btn a{
+    color: #fff;
+    border: 1px solid #fff ;
+    padding: 15px 10px;
+    border-radius: 7px;
+}
+
+/* End of Dashboard Page */
+
+/* Product Page */
+.business-page-lay{
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(189, 184, 184);
+    text-align: center;
+}
+
+.business-page-lay-title{
+    line-height: 10vh;
+}
+
+.personal-page-lay {
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 199, 136);
+    text-align: center;
+}
+
+.personal-page-lay-title {
+    line-height: 10vh;
+}
+
+.business-commercial-page-lay {
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(186, 248, 104);
+    text-align: center;
+}
+
+.business-commercial-page-lay-title {
+    line-height: 10vh;
+}
+
+.related-product-page-lay {
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(115, 241, 241);
+    text-align: center;
+}
+
+.related-product-page-lay-title {
+    line-height: 10vh;
+}
+
+/* End Of Product Page */
+
+/* Detail Page */
+
+.detail-page{
+    width: 60%;
+    height: 50vh;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 2px rgb(92, 88, 88);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+.detail-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/* End of Detail */
